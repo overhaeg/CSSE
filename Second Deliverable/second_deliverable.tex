@@ -34,10 +34,21 @@ overhaeg@vub.ac.be}
 \tableofcontents
 \clearpage
 
-\begin{abstract}
+\section{Source Code Repository}
 
-\end{abstract}
+The source code for this project is avalaible at \url{https://github.com/overhaeg/CSPL-Project}.
 
-\section{}
+\section{Project Description}
+
+The goal of this project is the implementation of an interpreter of System F$\omega$. System F$\omega$ is an extension of System F, which is itself an extension of 
+the Simply Typed Lambda Calculus (STLC). STLC introduces typing to lambda calculus, with a single function operator. 
+System F extends STLC by adding support for parametric polymorphism, and System F$\omega$ extends this further with higher-order polymorphism. 
+The interpreter will require a Parser, a Type checker and an Evaluator.\\
+\noindent
+System F$\omega$ will be implemented using the Haskell language, and should therefore be runnable on every system for which an implementation of the Glasgow Haskell Compiler (GHC) exists.
+To help with the implementation of the parser we will use the Happy Parser Generator for Haskell.\\
+This interpreter was implemented as a three-part project for the course Capita Selecta of Programming Languages. 
+
+
 
 \end{document}
